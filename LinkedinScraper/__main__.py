@@ -109,6 +109,7 @@ class MainClass :
 
 Examples:
  $ python LinkedinScraper -p -o 'khaled-dallah' 'https://www.linkedin.com/in/khaled-dallah/'
+ $ python LinkedinScraper -p -o 'pjvazquez' 'https://www.linkedin.com/in/pjvazquez/'
  $ python LinkedinScraper -n 23 'https://www.linkedin.com/search/results/all/?keywords=Robotic&origin=GLOBAL_SEARCH_HEADER'
 
 		'''

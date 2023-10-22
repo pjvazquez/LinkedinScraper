@@ -66,6 +66,15 @@ python LinkedinScraper -p -o 'ABC' 'https://www.linkedin.com/in/khaled-dallah/' 
 python LinkedinScraper -n 23 'https://www.linkedin.com/search/results/all/?keywords=Robotic&origin=GLOBAL_SEARCH_HEADER'
 ```
 
+* Parse profiles of RSC people
+'''
+python LinkedinScraper -n 23 'https://www.linkedin.com/search/results/people/?keywords=rsc&origin=GLOBAL_SEARCH_HEADER'
+
+python LinkedinScraper -n 23 'https://www.linkedin.com/search/results/people/?keywords=rsc&origin=SWITCH_SEARCH_VERTICAL'
+
+python LinkedinScraper 'https://www.linkedin.com/search/results/people/?keywords=responsabilidad%20social%20corporativa&origin=SWITCH_SEARCH_VERTICAL'
+
+'''
 
 * Parse <b>17</b> profiles of searchUrl [https://www.linkedin.com/.../?keywords=Robotic&...&](https://www.linkedin.com/search/results/all/?keywords=Robotic&origin=GLOBAL_SEARCH_HEADER)
 <br>and get output as <b>excel</b> file and put the information of each profile in <b>one row</b> 

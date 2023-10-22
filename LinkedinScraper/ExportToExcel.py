@@ -6,7 +6,7 @@
 
 
 from openpyxl import Workbook
-from openpyxl.compat import range
+# from openpyxl.compat import range
 from openpyxl.utils import get_column_letter
 from openpyxl.styles import Alignment, PatternFill, Border
 from openpyxl.drawing.image import Image
